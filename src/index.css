@@ -1,10 +1,10 @@
-/* src/index.css */
+/* Leaflet CSS (needed for proper map styling) - MUST BE FIRST */
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Leaflet CSS (needed for proper map styling) */
-@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
 
 /* helper to ensure full-height works */
 html, body, #root {
